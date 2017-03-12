@@ -1,0 +1,48 @@
+/* Общие стили */
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+a {transition: ease-out .25s;}
+
+section {
+  background: url("../img/gray-2.png") repeat-x;
+}
+
+.align-right  {text-align: right}
+.align-left   {text-align: left}
+.align-center {text-align: center}
+
+.padding-0 {padding: 0}
+
+a {
+  text-decoration: none;
+  &.btn {
+    display: block;
+    width: 154px;
+    height: 38px;
+    line-height: 33px;
+    border-radius: 18px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    &.btn-black {
+      color: $black;
+      border: 2px solid $black;
+      &:hover {
+        background-color: $black;
+        color: #fff;
+      }
+    }
+    &.btn-white {
+      color: $black;
+      border: 2px solid #fff;
+      background: $gray-2;
+      &:hover {
+        background-color: #fff;
+        color: $black;
+      }
+    }
+  }
+}

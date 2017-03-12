@@ -1,0 +1,13 @@
+/* Собираем все стили блоков в один */
+
+@import "../../template/header/top/style";
+@import "../../template/header/menu/style";
+@import "../../template/header/slider/style";
+
+@import "../../template/main/slider/style";
+@import "../../template/main/country/style";
+@import "../../template/main/content/style";
+@import "../../template/main/right-block/style";
+
+@import "../../template/footer/news-footer/style";
+@import "../../template/footer/footer-bottom/style";

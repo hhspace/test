@@ -1,0 +1,27 @@
+.menu-top{
+  ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    li {
+      list-style: none;
+      float: left;
+      padding: 19px 68px 17px 7px;
+      a{
+        font-size: 18.85px;
+        font-weight: 300;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $black;
+        letter-spacing: .6px;
+        &:hover, &.active {
+          color: $brown;
+        }
+      }
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}

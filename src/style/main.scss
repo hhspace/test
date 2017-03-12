@@ -1,0 +1,10 @@
+/* Собираем всё в main */
+@import "../../bower_components/normalize.css/normalize.css";
+@import "../../bower_components/owl.carousel/dist/assets/owl.carousel.min.css";
+/*
+* Custom
+*/
+@import "partials/bootstrap_grid_customize";
+@import "variables";
+@import "common";
+@import "partials/app";

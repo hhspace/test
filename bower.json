@@ -1,0 +1,23 @@
+{
+  "name": "travel",
+  "version": "0.0.0",
+  "authors": [
+    "Golev Maksim"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*",
+    "owl.carousel": "^2.2.1"
+  },
+  "description": "",
+  "main": "",
+  "homepage": ""
+}

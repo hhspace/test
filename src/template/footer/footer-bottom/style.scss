@@ -1,0 +1,40 @@
+footer {
+  background: $black;
+  .social{
+    padding-top: 7px;
+    display: block;
+    overflow: auto;
+
+  }
+  .first_block {
+    padding-top: 73px;
+    .footer-navigation {
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          list-style: none;
+          a{
+            color: #fff;
+            font-size: 14px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+  .last_block {
+    padding-top: 63px;
+    padding-bottom: 40px;
+    .copyright,
+    .address-footer,
+    .logo-id {
+      color: $gray-4;
+      font-size: 14px;
+      line-height: 30px;
+    }
+    .address-footer{
+      padding-left: 8px;
+    }
+  }
+}
